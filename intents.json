@@ -1,0 +1,37 @@
+{"intents"  : [
+        {   "tag" : "greetings",
+            "patterns" : ["hello", "hi", "good day", "Greetings", "whats up?" , "how is it going?", "hi"],
+            "responses" : ["Hello", "Hey!", "What can I do for you today?"] 
+        },
+
+        {
+            "tag" : "goodbye",
+            "patterns" : ["bye", "cya", "See you later", "Goodbye", "I am leaving", "Have a good day", "cao", "see you"],
+            "responses" : ["Sad to see you go :(", "Talk to you later", "Goodbye!", "See you soon", "Hope to see you around :)"]
+        },
+
+        {
+            "tag" : "age",
+            "patterns" : ["How old are you?", "How old?", "How old are you?", "age?"],
+            "responses" : ["Ill be 999 this sunday", "Im 25, what about you"]
+        },
+
+        {
+            "tag" : "name",
+            "patterns" : ["Whats your name", "name", "What should IO call you", "Who are you?", "Can you tell me your name"],
+            "responses" : ["You can call me Eve", "I'm Eve", "I'm Eve, assisant of CareerX"]
+        },
+        
+        {
+            "tag" : "shop",
+            "patterns" : ["Id like to buy something", "buy", "What are your products", "What do you recommend", "What are you selling"],
+            "responses" : ["CareerX has two cohorts avaible as of now and a lot of incoming. To know more information head on to the respective pages to know more and enroll now!", "To know more you can contact us now!"]
+        },
+
+        {
+            "tag" : "hours",
+            "patterns" : ["When are you guys open", "hours?", "What are your hours?", "Hours of operation"],
+            "responses" : ["You can reach us from 9 am to 10 pm"]
+        }
+    ]
+}
